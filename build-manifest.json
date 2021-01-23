@@ -1,0 +1,486 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_dist_/App.svelte.css": {
+      "bytes": 2973,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-d711d20f.js": {
+      "bytes": 19173,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 672,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/wrap-14f018b7.js": {
+      "bytes": 4560,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-c847899f.js": {
+      "bytes": 3291,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/Router-aec30ca7.js": {
+      "bytes": 23144,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-c847899f.js"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte-spa-router.js": {
+      "bytes": 270,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-c847899f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/Router-aec30ca7.js"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte-spa-router/wrap.js": {
+      "bytes": 56,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js"
+        }
+      ]
+    },
+    "_dist_/components/AppBar.svelte.css": {
+      "bytes": 492,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte-spa-router/active.js": {
+      "bytes": 3530,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-c847899f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/Router-aec30ca7.js"
+        }
+      ]
+    },
+    "_dist_/components/AppBar.svelte.js": {
+      "bytes": 1198,
+      "imports": [
+        {
+          "path": "_dist_/components/AppBar.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router/active.js"
+        }
+      ]
+    },
+    "_dist_/components/Loading.svelte.css": {
+      "bytes": 852,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/transition.js": {
+      "bytes": 308,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        }
+      ]
+    },
+    "_dist_/components/Loading.svelte.js": {
+      "bytes": 3903,
+      "imports": [
+        {
+          "path": "_dist_/components/Loading.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js"
+        }
+      ]
+    },
+    "_dist_/pages/Home.svelte.css": {
+      "bytes": 686,
+      "imports": []
+    },
+    "_dist_/components/Button.svelte.css": {
+      "bytes": 1043,
+      "imports": []
+    },
+    "_dist_/components/Button.svelte.js": {
+      "bytes": 3390,
+      "imports": [
+        {
+          "path": "_dist_/components/Button.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        }
+      ]
+    },
+    "_dist_/components/ButtonGroup.svelte.css": {
+      "bytes": 1497,
+      "imports": []
+    },
+    "_dist_/components/ButtonGroup.svelte.js": {
+      "bytes": 2633,
+      "imports": [
+        {
+          "path": "_dist_/components/ButtonGroup.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte/store.js": {
+      "bytes": 113,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-c847899f.js"
+        }
+      ]
+    },
+    "_dist_/config.js": {
+      "bytes": 913,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/store.js"
+        }
+      ]
+    },
+    "_dist_/pages/Home.svelte.js": {
+      "bytes": 7880,
+      "imports": [
+        {
+          "path": "_dist_/pages/Home.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js"
+        },
+        {
+          "path": "_dist_/components/Button.svelte.js"
+        },
+        {
+          "path": "_dist_/components/ButtonGroup.svelte.js"
+        },
+        {
+          "path": "_dist_/config.js"
+        }
+      ]
+    },
+    "_dist_/pages/Play.svelte.css": {
+      "bytes": 740,
+      "imports": []
+    },
+    "_snowpack/pkg/date-fns.js": {
+      "bytes": 36852,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte.js": {
+      "bytes": 93,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-d711d20f.js"
+        }
+      ]
+    },
+    "_dist_/components/Message.svelte.css": {
+      "bytes": 50,
+      "imports": []
+    },
+    "_dist_/components/Message.svelte.js": {
+      "bytes": 1906,
+      "imports": [
+        {
+          "path": "_dist_/components/Message.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js"
+        }
+      ]
+    },
+    "_dist_/timer.js": {
+      "bytes": 1600,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/date-fns.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/store.js"
+        }
+      ]
+    },
+    "_dist_/pages/Play.svelte.js": {
+      "bytes": 12691,
+      "imports": [
+        {
+          "path": "_dist_/pages/Play.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/date-fns.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js"
+        },
+        {
+          "path": "_dist_/components/Button.svelte.js"
+        },
+        {
+          "path": "_dist_/components/Message.svelte.js"
+        },
+        {
+          "path": "_dist_/config.js"
+        },
+        {
+          "path": "_dist_/timer.js"
+        }
+      ]
+    },
+    "_dist_/pages/NotFound.svelte.js": {
+      "bytes": 1228,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js"
+        }
+      ]
+    },
+    "_dist_/App.svelte.js": {
+      "bytes": 2035,
+      "imports": [
+        {
+          "path": "_dist_/App.svelte.css"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router/wrap.js"
+        },
+        {
+          "path": "_dist_/components/AppBar.svelte.js"
+        },
+        {
+          "path": "_dist_/components/Loading.svelte.js"
+        },
+        {
+          "path": "_dist_/pages/Home.svelte.js"
+        },
+        {
+          "path": "_dist_/pages/Play.svelte.js"
+        },
+        {
+          "path": "_dist_/pages/NotFound.svelte.js"
+        }
+      ]
+    },
+    "_dist_/index.js": {
+      "bytes": 396,
+      "imports": [
+        {
+          "path": "_snowpack/env.js"
+        },
+        {
+          "path": "_dist_/App.svelte.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/_dist_/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_dist_/pages/Play.svelte.js": {
+          "bytesInOutput": 4207
+        },
+        "_dist_/pages/NotFound.svelte.js": {
+          "bytesInOutput": 385
+        },
+        "_snowpack/env.js": {
+          "bytesInOutput": 96
+        },
+        "_dist_/App.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-d711d20f.js": {
+          "bytesInOutput": 6773
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/wrap-14f018b7.js": {
+          "bytesInOutput": 874
+        },
+        "_snowpack/pkg/common/index-c847899f.js": {
+          "bytesInOutput": 746
+        },
+        "_snowpack/pkg/common/Router-aec30ca7.js": {
+          "bytesInOutput": 5395
+        },
+        "_snowpack/pkg/svelte-spa-router.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte-spa-router/wrap.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/AppBar.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte-spa-router/active.js": {
+          "bytesInOutput": 295
+        },
+        "_dist_/components/AppBar.svelte.js": {
+          "bytesInOutput": 626
+        },
+        "_dist_/components/Loading.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte/transition.js": {
+          "bytesInOutput": 150
+        },
+        "_dist_/components/Loading.svelte.js": {
+          "bytesInOutput": 1510
+        },
+        "_dist_/pages/Home.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/Button.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/Button.svelte.js": {
+          "bytesInOutput": 1050
+        },
+        "_dist_/components/ButtonGroup.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/ButtonGroup.svelte.js": {
+          "bytesInOutput": 793
+        },
+        "_snowpack/pkg/svelte/store.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/config.js": {
+          "bytesInOutput": 433
+        },
+        "_dist_/pages/Home.svelte.js": {
+          "bytesInOutput": 2601
+        },
+        "_dist_/App.svelte.js": {
+          "bytesInOutput": 615
+        },
+        "_dist_/pages/Play.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/date-fns.js": {
+          "bytesInOutput": 4234
+        },
+        "_snowpack/pkg/svelte.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/Message.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/Message.svelte.js": {
+          "bytesInOutput": 707
+        },
+        "_dist_/timer.js": {
+          "bytesInOutput": 1045
+        },
+        "_dist_/index.js": {
+          "bytesInOutput": 60
+        }
+      },
+      "bytes": 33231
+    },
+    "../~~bundle~~/_dist_/index.css": {
+      "imports": [],
+      "inputs": {
+        "_dist_/App.svelte.css": {
+          "bytesInOutput": 2933
+        },
+        "_dist_/pages/Play.svelte.css": {
+          "bytesInOutput": 727
+        },
+        "_dist_/components/AppBar.svelte.css": {
+          "bytesInOutput": 483
+        },
+        "_dist_/components/Loading.svelte.css": {
+          "bytesInOutput": 842
+        },
+        "_dist_/components/Message.svelte.css": {
+          "bytesInOutput": 50
+        },
+        "_dist_/pages/Home.svelte.css": {
+          "bytesInOutput": 685
+        },
+        "_dist_/components/Button.svelte.css": {
+          "bytesInOutput": 1032
+        },
+        "_dist_/components/ButtonGroup.svelte.css": {
+          "bytesInOutput": 1486
+        }
+      },
+      "bytes": 8239
+    }
+  }
+}
