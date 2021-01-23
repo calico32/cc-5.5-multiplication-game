@@ -2,9 +2,11 @@
 
 very cool project
 
-I used Svelte and Snowpack instead of React and webpack as I normally did before.
+go to <https://wiisportsresort.github.io/cc-5.5-multiplication-game> for live demo
 
-Really liking Svelte for the small runtime size, simpler components, among others. Snowpack is just super fast with minimal configuration, both in development and in production.
+I used Svelte and Snowpack instead of React and webpack as I normally did before
+
+Really liking Svelte for the small runtime size, simpler components, among others. Snowpack is just super fast with minimal configuration, both in development and in production
 
 I might leave the church of React become a Svelte guy
 
@@ -12,9 +14,13 @@ Perfect Lighthouse score
 
 ![Lighthouse Score](assets/lighthouse.png)
 
-Size and performance
+Size and performance (no cache)
 
-![Network Devtools](assets/speed.png)
+![Network Devtools](assets/no-cache.png)
+
+with cache
+
+![Network Devtools](assets/with-cache.png)
 
 ## extra stuff (why not)
 
